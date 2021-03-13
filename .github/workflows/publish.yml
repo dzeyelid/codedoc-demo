@@ -36,9 +36,10 @@ jobs:
 
     - name: build
       run: |
+        npm install
         codedoc build
   
-    - name: Push
+    - name: Publish
       run: |
         git add .
         git commit -m "Auto deploy by SHA ${{ github.sha }}"
