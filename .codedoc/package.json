@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@codedoc/core": "^0.2.23"
+    "@codedoc/core": "^0.2.23",
+    "ansi_up": ">=5.0.0"
   }
 }
